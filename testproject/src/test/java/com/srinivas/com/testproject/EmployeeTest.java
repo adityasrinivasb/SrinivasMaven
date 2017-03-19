@@ -12,7 +12,7 @@ public class EmployeeTest {
 	public void testName() {
 		e = new Employee();
 		e.setName("Srinivas");
-		Assert.assertEquals("Sriniva", e.getName());
+		Assert.assertEquals("Srinivas", e.getName());
 	}
 	
 	

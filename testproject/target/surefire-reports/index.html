@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-com.srinivas.com.testproject.EmployeeTest">
-              <span class="suite-name border-failed">com.srinivas.com.testproject.EmployeeTest</span>
+              <span class="suite-name border-passed">com.srinivas.com.testproject.EmployeeTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-com.srinivas.com.testproject.EmployeeTest" class="hide-methods failed suite-com.srinivas.com.testproject.EmployeeTest"> (hide)</a> <!-- hide-methods failed suite-com.srinivas.com.testproject.EmployeeTest -->
-                      <a href="#" panel-name="suite-com.srinivas.com.testproject.EmployeeTest" class="show-methods failed suite-com.srinivas.com.testproject.EmployeeTest"> (show)</a> <!-- show-methods failed suite-com.srinivas.com.testproject.EmployeeTest -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-com.srinivas.com.testproject.EmployeeTest" class="hide-methods passed suite-com.srinivas.com.testproject.EmployeeTest"> (hide)</a> <!-- hide-methods passed suite-com.srinivas.com.testproject.EmployeeTest -->
+                      <a href="#" panel-name="suite-com.srinivas.com.testproject.EmployeeTest" class="show-methods passed suite-com.srinivas.com.testproject.EmployeeTest"> (show)</a> <!-- show-methods passed suite-com.srinivas.com.testproject.EmployeeTest -->
                     </span>
-                    <div class="method-list-content failed suite-com.srinivas.com.testproject.EmployeeTest">
+                    <div class="method-list-content passed suite-com.srinivas.com.testproject.EmployeeTest">
                       <span>
-                        <img width="3%" src="failed.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-com.srinivas.com.testproject.EmployeeTest" title="com.srinivas.com.testproject.EmployeeTest" hash-for-method="testName">testName</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-com.srinivas.com.testproject.EmployeeTest -->
+                    </div> <!-- method-list-content passed suite-com.srinivas.com.testproject.EmployeeTest -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-com.srinivas.com.testproject.EmployeeTest" class="panel com.srinivas.com.testproject.EmployeeTest">
-          <div class="suite-com.srinivas.com.testproject.EmployeeTest-class-failed">
+          <div class="suite-com.srinivas.com.testproject.EmployeeTest-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.srinivas.com.testproject.EmployeeTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,16 +128,10 @@
                   <a name="testName">
                   </a> <!-- testName -->
                   <span class="method-name">testName</span>
-                  <div class="stack-trace">junit.framework.ComparisonFailure: expected:&lt;Sriniva[]&gt; but was:&lt;Sriniva[s]&gt;
-	at junit.framework.Assert.assertEquals(Assert.java:100)
-	at junit.framework.Assert.assertEquals(Assert.java:107)
-	at com.srinivas.com.testproject.EmployeeTest.testName(EmployeeTest.java:15)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-com.srinivas.com.testproject.EmployeeTest-class-failed -->
+          </div> <!-- suite-com.srinivas.com.testproject.EmployeeTest-class-passed -->
         </div> <!-- panel com.srinivas.com.testproject.EmployeeTest -->
         <div panel-name="test-xml-com.srinivas.com.testproject.EmployeeTest" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -193,12 +187,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testName')
 data.setCell(0, 2, 'com.srinivas.com.testproject.EmployeeTest')
-data.setCell(0, 3, 8);
+data.setCell(0, 3, 5);
 window.suiteTableData['com.srinivas.com.testproject.EmployeeTest']= { tableData: data, tableDiv: 'times-div-com.srinivas.com.testproject.EmployeeTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 ms</span>
+              <span class="suite-total-time">Total running time: 5 ms</span>
               <div id="times-div-com.srinivas.com.testproject.EmployeeTest">
               </div> <!-- times-div-com.srinivas.com.testproject.EmployeeTest -->
             </div> <!-- times-div -->
@@ -226,8 +220,6 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.srinivas.com.testproject.EmployeeTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testName</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
