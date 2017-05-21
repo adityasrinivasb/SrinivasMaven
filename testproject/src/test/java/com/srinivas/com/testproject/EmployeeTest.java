@@ -1,8 +1,9 @@
 package com.srinivas.com.testproject;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import junit.framework.Assert;
+
 
 public class EmployeeTest {
 	
@@ -13,6 +14,9 @@ public class EmployeeTest {
 		e = new Employee();
 		e.setName("Srinivas");
 		Assert.assertEquals("Srinivas", e.getName());
+		e.setDesig("Senior Software Engineer");
+		Assert.assertEquals(e.getDesig(), "Consultant");
+		
 	}
 	
 	
