@@ -13,9 +13,9 @@ public class EmployeeTest {
 	public void testName() {
 		e = new Employee();
 		e.setName("Srinivas");
-		Assert.assertEquals("Srinivas", e.getName());
+		Assert.assertEquals(e.getName(), "Srinivas");
 		e.setDesig("Senior Software Engineer");
-		Assert.assertEquals(e.getDesig(), "Consultant");
+		Assert.assertEquals(e.getDesig(), "Senior Software Engineer");
 		
 	}
 	
